@@ -1,7 +1,6 @@
 Gui, Add, Edit, vEdit1
 Gui, Add, Button, default ym, OK
 Gui, Show, , MacroCode
-GuiControl, Focus, vButton1
 return
 
 GuiClose:
@@ -10,10 +9,5 @@ ExitApp
 
 buttonOK:
 Gui, Submit
-Gosub, CheckCode
-return
-
-CheckCode:
-ListVars
-Run D:\Programs\AHK\AutoHotKey.exe C:\AHK\MacroCode\%Edit1%.txt
+Run AutoHotKey.exe %A_ScriptDir%\%Edit1%.txt
 return
