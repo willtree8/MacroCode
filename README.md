@@ -22,3 +22,6 @@ The scripts are simply autohotkey code, learn more about that [here](https://www
 To open the menu, press `Ctrl`+`Q`. Then, type the appropriate code and hit enter! Then, MacroCode will execute the appropriate script.
 
 `999.txt` is included as an example.
+
+## Modification
+If you decide you want to add/change something, MacroCode.ahk is the source - go for it!
