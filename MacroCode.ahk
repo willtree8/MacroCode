@@ -1,3 +1,4 @@
+^Q::
 Gui, Add, Edit, vEdit1
 Gui, Add, Button, default ym, OK
 Gui, Show, , MacroCode
